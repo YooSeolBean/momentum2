@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/text.css">
+  <script defer src="/js/userInfo.js"></script>
+  <script defer src="/js/clock.js"></script>
+  <script defer src="/js/todo.js"></script>
+  <script defer src="/js/quotes.js"></script>
+  <script defer src="/js/background.js"></script>
+  <script defer src="/js/weather.js"></script>
+  <!--Css reset-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <!--googleIcon-->
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+  <title>Momentum</title>  
+</head>
+<body>
+  <div class="inner">
+  <!--weather-->
+  <div id="weather">
+    <span></span>
+    <span></span>
+  </div>
+  <!--clock-->
+  <article class="flex_center">
+  <div class="clock_wrap">
+    <h1 class="clock">00:00</h1>
+  </div>
+  <!--Login-->
+  <form id="form" class="hidden">
+    <input  class="text_input"
+            required
+            maxlength="15"
+            type="text" 
+            placeholder="Please write your name">
+    <input class="btn" type="submit" value="login">
+  </form>
+  <h1 class="login_h1 hidden"></h1>
+  <!--todoList-->
+  <form id="form_todo">
+    <label for="todo">What is your main focus for today?</label>
+    <input class="todo_input" type="text" name="todo" >
+  </form>
+  <ul id="todo-list">
+ 
+  </ul>
+    <!--quotes-->
+ <div id="qoutes">
+  <span></span>
+  <span></span>
+ </div>
+<!--background-->
+</article>
+</div>
+
+  
+
+
+ 
+</body>
+</html> 

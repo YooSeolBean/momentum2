@@ -1,0 +1,27 @@
+.clock{
+  animation:fade-in  1.6s forwards cubic-bezier(0.11,0,0.5,0);
+}
+
+#form{
+  animation:fade-in  1.6s forwards cubic-bezier(0.11,0,0.5,0);
+
+}
+
+.login_h1{
+  animation:fade-in  1.6s forwards cubic-bezier(0.11,0,0.5,0);
+}
+
+#form_todo label{
+  animation:fade-in  1.6s forwards cubic-bezier(0.11,0,0.5,0);
+}
+
+@keyframes fade-in {
+  0%{
+    opacity: 0;
+    filter:blur(0)
+  }
+  100%{
+    opacity: 1;
+    filter:blur(0)
+  }
+}
